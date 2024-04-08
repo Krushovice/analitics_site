@@ -1,5 +1,5 @@
 install:
-	poetry install
+	./build.sh
 
 start:
 	poetry run python -m gunicorn sales_analitics_site.asgi:application -k uvicorn.
