@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "sales_analitics_site.user.apps.UserConfig",
 ]
 
 MIDDLEWARE = [
